@@ -5,6 +5,10 @@ allows you to use template tags in your .js/.css, then for production adds a man
 
 Can be used as the user wants, I've written this for single page applications so that I can use INCLUDE and URL tags in my .js files
 
+installation
+pip install https://github.com/fredkingham/django-media-renderer/master
+
+
 the following settings are required in your settings file
 
 media_renderer need to be added to your installed apps
@@ -22,3 +26,4 @@ useage
  add to your urls url(r'', include('js_render.urls')),
 
 before collect static in your build scripts add the admin comman render_templates
+
